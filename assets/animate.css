@@ -8,6 +8,30 @@
  * Copyright (c) 2019 Daniel Eden
  */
 
+.scroll-bar{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+html{
+    
+    scrollbar-color: #b956fe;
+}
+::-webkit-scrollbar-track {
+    background: #f1dcff; /* Change the track color */
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to top, #e70280, rgba(242, 242, 242, 0));
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #00b3ff, rgba(241, 241, 241, 0)); /* Change the thumb color on hover */
+}
+
+
 @-webkit-keyframes bounce {
     from,
     20%,
