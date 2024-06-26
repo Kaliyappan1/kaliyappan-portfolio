@@ -1483,7 +1483,10 @@ button.apihu-port-primary-btn:hover {
     font-size: 32px;
   }
 }
-
+.apihu-port-section-subitle{
+  font-size: 28;
+  font-weight: 600;
+}
 .apihu-port-section-heading .apihu-port-section-title .apihu-port-section-title-color {
   color: #e30281;
 }
@@ -1584,7 +1587,7 @@ button.apihu-port-primary-btn:hover {
 }
 
 .apihu-port-about-area .apihu-port-about-right .apihu-port-about-expertise .nav-item {
-  margin-right: 30px;
+  margin: 10px 5px;
 }
 
 .apihu-port-about-area .apihu-port-about-right .apihu-port-about-expertise .nav-item:last-child {
@@ -1598,7 +1601,7 @@ button.apihu-port-primary-btn:hover {
 }
 
 .apihu-port-about-area .apihu-port-about-right .apihu-port-about-expertise .nav-link {
-  width: 170px;
+  width: 200px;
   height: 50px;
   line-height: 35px;
   text-align: center;
@@ -1783,8 +1786,8 @@ button.apihu-port-primary-btn:hover {
   border-radius: 50%;
   width: 200%;
   height: 150%;
-  background: -webkit-gradient(linear, left bottom, right top, from(#ff0076), to(#590fb7));
-  background: linear-gradient(to top right, #ff0076, #590fb7);
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff0077dc), to(#580fb7c7));
+  background: linear-gradient(to top right, #ff0077ce, #580fb7c7);
   -webkit-transition: all 1.3s ease-in-out;
   transition: all 1.3s ease-in-out;
   -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);

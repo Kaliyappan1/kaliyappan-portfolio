@@ -115,3 +115,43 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.project-images{
+    width: 500px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(104, 252, 255, 0.312);
+    margin: 30px 0 22px 5px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+.project-images:hover{
+    width: 505px;
+    height: 285px;
+    border-radius: 5px;
+    border:1px solid rgb(102, 171, 255);
+}
+.card-margin{
+    margin: 30px 0px;
+   
+    
+}
+.card-icon-padding{
+    padding: 8px;
+}
+.about-cover-img{
+    max-width: 600px;
+    max-height: 650px;
+   mask-image: linear-gradient(black, transparent);
+}
+.service-image{
+    max-width: 600px;
+    max-height: 400px;
+}
+.contact-container{
+    margin: 50px 0;
+}
+.apihu-port-contact-number{
+    margin: 20px 0;
+}
