@@ -5,7 +5,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="icon" href="./assets/name_logo.png">
-	<title>Kaliyappan - Portfolio Website</title>
+	<title>Kaliyappan</title>
 
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -164,7 +164,7 @@
 						<div class="apihu-port-hero-right wow slideInRight"
 							style="visibility: visible; animation-name: slideInRight;">
 							<div class="apihu-port-hero-right-img">
-								<img src="./assets/landing_photo.png" alt="Hero Area">
+								<img class="home_img" src="./assets/landing_photo.png" alt="Hero Area">
 							</div>
 						</div>
 					</div>
@@ -232,17 +232,17 @@
 
 								</ul>
 
-								
 
-									<!--
+
+								<!--
 							<div class="apihu-port-about-btn">
 								<a href="https://html.themexriver.com/Saasio/index-31.1.html#">Download CV <i class="fas fa-download"></i></a>
 							</div>
 							-->
-								</div>
 							</div>
 						</div>
 					</div>
+				</div>
 		</section>
 		<!-- About End -->
 
@@ -262,15 +262,25 @@
 				</div>
 
 				<div class="row">
-					<div class="col-xl-6 col-lg-6 col-md-6 card-margin">
+					<div class="col-xl-6 col-lg-6 col-md-6 service-padding card-margin">
 						<div class="apihu-port-single-service wow fadeInUp" data-wow-delay="0.2s"
 							style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 							<div class="apihu-port-service-icon-box card-icon-padding">
 								<i class="fa-brands fa-youtube"></i>
 							</div>
 							<h3 class="apihu-port-single-service-title">YouTube Clone</h3>
-							<a href="https://clone-youtub123.web.app/"><img class="project-images"
-									src="./assets/youtube.png" alt=""></a>
+							<div class="container-img">
+								<a href="https://clone-youtub123.web.app/"><img class="project-images"
+										src="./assets/images/youtube.png" alt=""></a>
+								<div class="overlay">
+
+									<a href="https://clone-youtub123.web.app/">
+										<div class="text"><i class="fa-solid fa-square-up-right"></i>
+											<h3>Visit site</h3>
+										</div>
+									</a>
+								</div>
+							</div>
 							<p style="font-weight: 600;" class="apihu-port-single-service-text">Create a responsive
 								YouTube clone using React with Material-UI for styling and components.
 							</p>
@@ -286,7 +296,18 @@
 								<i class="fa-brands fa-amazon"></i>
 							</div>
 							<h3 class="apihu-port-single-service-title">Amazon clone</h3>
-							<a href=""><img class="project-images" src="./assets/amazon.png" alt=""></a>
+							<div class="container-img">
+								<a href="https://amzon-clone-1-1.web.app/"><img class="project-images"
+										src="./assets/images/amazon.png" alt=""></a>
+								<div class="overlay">
+
+									<a href="https://amzon-clone-1-1.web.app/">
+										<div class="text"><i class="fa-solid fa-square-up-right"></i>
+											<h3>Visit site</h3>
+										</div>
+									</a>
+								</div>
+							</div>
 							<p style="font-weight: 600;" class="apihu-port-single-service-text">Build a complete
 								Amazon-like e-commerce site with accounts, product pages, cart, checkout, real payments,
 								and order history using React JS.
@@ -305,8 +326,19 @@
 								<i class="fa-regular fa-clock"></i>
 							</div>
 							<h3 class="apihu-port-single-service-title">Timesheet Application</h3>
-							<a href="https://timesheet-app-deploy.onrender.com/"><img class="project-images"
-									src="./assets/timesheet.png" alt=""></a>
+
+							<div class="container-img">
+								<a href="https://timesheet-app-deploy.onrender.com/"><img class="project-images"
+										src="./assets/images/timesheet.png" alt=""></a>
+								<div class="overlay">
+
+									<a href="https://timesheet-app-deploy.onrender.com/">
+										<div class="text"><i class="fa-solid fa-square-up-right"></i>
+											<h3>Visit site</h3>
+										</div>
+									</a>
+								</div>
+							</div>
 							<p class="apihu-port-single-service-text">
 
 								The timesheet app includes a home page, login page (with MongoDB and Express), admin
@@ -323,9 +355,20 @@
 								<i class="fa-solid fa-tablet-screen-button"></i>
 							</div>
 							<h3 class="apihu-port-single-service-title">Screenshot App</h3>
-							<a href="https://kaliyappan1.github.io/screenshot-taker-app/"><img class="project-images"
-									src="./assets/screenshot application.png" alt=""></a>
-							<p class="apihu-port-single-service-text">Create an app that takes a screenshot of the current page using HTML2Canvas.</p>
+									<div class="container-img">
+										<a href="https://kaliyappan1.github.io/screenshot-taker-app/"><img class="project-images"
+												src="./assets/images/screenshot app.png" alt=""></a>
+										<div class="overlay">
+		
+											<a href="https://kaliyappan1.github.io/screenshot-taker-app/">
+												<div class="text"><i class="fa-solid fa-square-up-right"></i>
+													<h3>Visit site</h3>
+												</div>
+											</a>
+										</div>
+									</div>
+							<p class="apihu-port-single-service-text">Create an app that takes a screenshot of the
+								current page using HTML2Canvas.</p>
 							<a class="apihu-port-single-service-btn"
 								href="https://github.com/Kaliyappan1/screenshot-taker-app">GitHub Code <i
 									class="fa-solid fa-arrow-trend-up"></i></i></a>
@@ -365,7 +408,8 @@
 								</div>
 								<div class="col-xl-4 col-lg-4">
 									<div class="apihu-port-cta-content-img">
-										<img class="service-image" src="./assets/me second.png" alt="Call to action area">
+										<img class="service-image" src="./assets/me second.png"
+											alt="Call to action area">
 									</div>
 								</div>
 							</div>
@@ -469,7 +513,7 @@
 					<div class="col-xl-6">
 						<div class="apihu-port-contact-right">
 							<div class="apihu-port-contact-right-img">
-								
+
 							</div>
 							<div class="apihu-port-contact-right-content">
 
@@ -481,7 +525,7 @@
 									<span style="font-size: 25px;" class="apihu-port-contact-email"><a
 											href="https://www.linkedin.com/in/kaliyappanrangan/">DM on LinkedIn: <font
 												style="font-weight: bold; color: #e70280;">kaliyappanrangan</font>
-											</a></span>
+										</a></span>
 								</div>
 							</div>
 						</div>

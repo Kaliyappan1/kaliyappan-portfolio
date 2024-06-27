@@ -116,8 +116,8 @@
     display: none;
 }
 .project-images{
-    width: 500px;
-    height: 280px;
+   max-width: 98%;
+   max-height: 80%;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px rgba(104, 252, 255, 0.312);
@@ -127,11 +127,50 @@
     transition: all 0.2s ease-in;
 }
 .project-images:hover{
-    width: 505px;
-    height: 285px;
     border-radius: 5px;
-    border:1px solid rgb(102, 171, 255);
+    border:1px solid rgb(0, 115, 255);
+    -webkit-filter:blur(1px) brightness(80%) ;
 }
+.container-img{
+    
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.65);
+
+    margin-left: 5px;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 131, 255);
+    box-shadow: 0px 0px 25px rgba(0, 255, 208, 0.392);
+}
+.container-img:hover .overlay{
+    opacity: 1;
+    
+}
+.text {
+    color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 .card-margin{
     margin: 30px 0px;
    
@@ -143,7 +182,7 @@
 .about-cover-img{
     max-width: 600px;
     max-height: 650px;
-   mask-image: linear-gradient(black, transparent);
+  
 }
 .service-image{
     max-width: 600px;
@@ -155,3 +194,8 @@
 .apihu-port-contact-number{
     margin: 20px 0;
 }
+
+.service-padding{
+   padding: 10px;
+}
+
