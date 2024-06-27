@@ -130,6 +130,7 @@
     border-radius: 5px;
     border:1px solid rgb(0, 115, 255);
     -webkit-filter:blur(1px) brightness(80%) ;
+    
 }
 .container-img{
     
@@ -153,8 +154,9 @@
     opacity: 0;
     transition: all 0.5s ease;
     border-radius: 5px;
-    border: 1px solid rgb(131, 131, 255);
-    box-shadow: 0px 0px 25px rgba(0, 255, 208, 0.392);
+    border: 1px solid rgb(207, 255, 74);
+    box-shadow: 0px 0px 25px rgba(142, 255, 234, 0.671);
+    
 }
 .container-img:hover .overlay{
     opacity: 1;
