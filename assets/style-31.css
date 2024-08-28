@@ -1233,7 +1233,7 @@ button.apihu-port-primary-btn:hover {
 }
 
 .apihu-port-hero-area .apihu-port-hero-right {
-  margin-top: 60px;
+  margin-top: 30px;
   position: relative;
 }
 
@@ -1462,9 +1462,10 @@ button.apihu-port-primary-btn:hover {
 }
 
 .apihu-port-section-heading .apihu-port-section-subtitle {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1;
+
   font-family: "Roboto", sans-serif;
   color: #e70280;
   margin-bottom: 13px;
@@ -1484,8 +1485,10 @@ button.apihu-port-primary-btn:hover {
   }
 }
 .apihu-port-section-subitle{
-  font-size: 28;
-  font-weight: 600;
+  font-size: 10;
+  font-weight: 500;
+  display: flex;
+ 
 }
 .apihu-port-section-heading .apihu-port-section-title .apihu-port-section-title-color {
   color: #e30281;
@@ -1588,6 +1591,11 @@ button.apihu-port-primary-btn:hover {
 
 .apihu-port-about-area .apihu-port-about-right .apihu-port-about-expertise .nav-item {
   margin: 10px 5px;
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover{
+  scale: 1.03;
 }
 
 .apihu-port-about-area .apihu-port-about-right .apihu-port-about-expertise .nav-item:last-child {
@@ -1959,7 +1967,7 @@ button.apihu-port-primary-btn:hover {
 
 .apihu-port-cta-area {
   background: #e3edf7;
-  padding: 85px 0 110px;
+  padding: 30px 0 ;
   position: relative;
 }
 
@@ -2624,184 +2632,11 @@ button.apihu-port-primary-btn:hover {
 }
 
 .apihu-port-contact-area {
-  padding: 0 0 110px;
+  padding: 0 0 50px;
   background: #e3edf7;
   position: relative;
 }
 
-.apihu-port-contact-area:after {
-  position: absolute;
-  width: 63%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  content: "";
-  background: #d1d6db;
-  margin: auto;
-  right: 0;
-}
-
-.apihu-port-contact-area .apihu-port-section-heading .apihu-port-section-text {
-  margin-top: 40px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left {
-  padding: 40px 20px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
-  background: linear-gradient(to bottom right, #e4eef7, #ffffff);
-  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
-          box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
-  border-radius: 5px;
-}
-
-@media (max-width: 1199.98px) {
-  .apihu-port-contact-area .apihu-port-contact-left {
-    margin-bottom: 50px;
-  }
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form input[type=text],
-.apihu-port-contact-area .apihu-port-contact-left form input[type=email] {
-  margin-bottom: 20px;
-  background: #e9f1f9;
-  border: 1px solid #e7e7e7;
-  width: 100%;
-  padding: 13px 20px;
-  border-radius: 3px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form textarea {
-  margin-bottom: 33px;
-  background: #e9f1f9;
-  border: 1px solid #e7e7e7;
-  width: 100%;
-  padding: 20px;
-  border-radius: 3px;
-  height: 150px;
-  resize: none;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form button[type=submit] {
-  border: none;
-  color: #ffffff;
-  border: 5px;
-  padding: 20px 15px;
-  display: inline-block;
-  font-size: 16px;
-  line-height: 1;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  border-radius: 5px;
-  position: relative;
-  z-index: 0;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form button[type=submit] i {
-  margin-left: 10px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form button[type=submit]:before {
-  background: -webkit-gradient(linear, left bottom, right top, from(#ff0076), to(#590fb7));
-  background: linear-gradient(to top right, #ff0076, #590fb7);
-  -webkit-box-shadow: -4px -3px 8px 0px rgba(122, 247, 169, 0.25), 5px 5px 15px 0px rgba(100, 14, 179, 0.3);
-          box-shadow: -4px -3px 8px 0px rgba(122, 247, 169, 0.25), 5px 5px 15px 0px rgba(100, 14, 179, 0.3);
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  z-index: -1;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form button[type=submit]:hover:before {
-  width: 0;
-}
-
-.apihu-port-contact-area .apihu-port-contact-left form button[type=submit]:hover {
-  background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
-  background: linear-gradient(to bottom right, #e4eef7, #ffffff);
-  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
-          box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
-  color: #08203a;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right {
-  background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
-  background: linear-gradient(to bottom right, #e4eef7, #ffffff);
-  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
-          box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
-  padding: 30px 20px 145px 20px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right .apihu-port-contact-right-img {
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right img {
-  width: 100%;
-  -webkit-transition: all .8s ease-in-out;
-  transition: all .8s ease-in-out;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right:hover .apihu-port-contact-right-img img {
-  -webkit-transform: scale(1.1) rotate(3deg);
-          transform: scale(1.1) rotate(3deg);
-}
-
-.apihu-port-contact-area .apihu-port-contact-right .apihu-port-contact-right-content {
-  background: linear-gradient(107deg, #d3cbed, #ffffff);
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  padding: 35px 20px 30px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right .apihu-port-contact-right-content .apihu-port-contact-icon-box {
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
-  background: linear-gradient(to bottom right, #e4eef7, #ffffff);
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right .apihu-port-contact-right-content .apihu-port-contact-icon-box i {
-  font-size: 40px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right .apihu-port-contact-right-content .apihu-port-contact-text {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.apihu-port-contact-area .apihu-port-contact-right .apihu-port-contact-right-content .apihu-port-contact-text span {
-  font-size: 20px;
-  line-height: 1.5;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #08203a;
-  display: block;
-}
 
 .apihu-port-blog-area {
   background: #e3edf7;
@@ -3086,4 +2921,49 @@ button.apihu-port-primary-btn:hover {
     margin-right:0;
     font-weight:600
   }
+}
+
+
+/* CSS for Contact Form */
+
+.form-control.custom-input {
+  border-radius: 8px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border color */
+  padding: 10px; /* Padding inside the input */
+  font-size: 16px; /* Font size */
+  color: #000000; /* Text color */
+  background-color: #f9f9f9; /* Background color */
+  transition: border-color 0.3s; /* Smooth transition */
+}
+
+.form-control.custom-input::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+/* Focus styles for the input fields */
+.form-control.custom-input:focus {
+  border-color: #e70280; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.custom-button {
+  background-color: #e70280; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.custom-button:hover {
+  background-color: #c6006c; /* Darker color on hover */
+}
+
+/* CSS for Error Messages */
+.form-text.text-danger {
+  font-size: 14px;
+  color: red; /* Error message color */
 }
