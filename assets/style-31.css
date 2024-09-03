@@ -2967,3 +2967,7 @@ button.apihu-port-primary-btn:hover {
   font-size: 14px;
   color: red; /* Error message color */
 }
+
+b{
+  color: #292929;
+}
