@@ -2971,3 +2971,8 @@ button.apihu-port-primary-btn:hover {
 b{
   color: #292929;
 }
+
+.apihu-port-single-service-text a{
+  color: blue;
+}
+
